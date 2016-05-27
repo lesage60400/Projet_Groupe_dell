@@ -1,11 +1,12 @@
-ul{
+li{
     list-style:none;
-    margin:15px 15px 15px 15px;
+    margin:15px 5px 15px 5px;
 }
 .niveau1{
+    display:block;
     float:left;
     width:150px;
-    margin-right:10px;
+    margin-right:5px;
     margin-bottom:15px;
     text-align:center;
     color:white;
@@ -13,18 +14,27 @@ ul{
 .niveau2{
     postion:absolute;
     margin-top:10px;
-    margin-left:-10px;
     display:none;
+    background-color:white;
+    color:#007DB8;
+    margin-right:auto;
+    text-align:left;
+    width:200px;
 }
 .niveau2 li{
-    border : 10px solide black;
-    background:white;
     width:120px;
     margin-top:10px;
 }
-.l1:hover > .niveau2{
-    display:block;
-}
+.niveau3{
+     postion:absolute;
+    margin-top:10px;
+    margin-left:-10px;
+    display:none;
+    background-color:white;
+    color:#007DB8;
+    }
+ul ul {display: none;}
+li:hover ul.niveau2, li li:hover ul.niveau3 {display:block;}
 .Header{
     background-color:#007DB8;
 }
@@ -33,4 +43,7 @@ img, .input-group, .row-user{
 }
 img{
     margin-left:25px;
+}
+li{
+    color:white;
 }
