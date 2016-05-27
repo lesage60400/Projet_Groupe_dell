@@ -38,7 +38,7 @@ li:hover ul.niveau2, li li:hover ul.niveau3 {display:block;}
 .Header{
     background-color:#007DB8;
 }
-img, .input-group, .row-user{
+img, .input-group{
     margin-top:15px;
 }
 img{
@@ -46,4 +46,10 @@ img{
 }
 li{
     color:white;
+}
+.collapse{
+    background-color: blue;
+}
+.row-user{
+    margin-top:25px;
 }
